@@ -19,7 +19,7 @@ public class AlienBullet : MonoBehaviour
         rigidbody.velocity = Vector2.down * speed;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Wall")
         {
@@ -30,7 +30,7 @@ public class AlienBullet : MonoBehaviour
         {
             Destroy(gameObject);
 
-            Object.Destroy(collision.gameObject);
+            Destroy(collision.gameObject);
         }
 
         if (collision.tag == "Player")

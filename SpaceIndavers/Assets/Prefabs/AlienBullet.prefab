@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1710969727394252710}
   - component: {fileID: 3346861441740549066}
   - component: {fileID: 7212420747329572566}
-  - component: {fileID: 2599737948533353654}
+  - component: {fileID: 1611931037944238447}
   - component: {fileID: 6427602244582678065}
   m_Layer: 13
   m_Name: AlienBullet
@@ -93,7 +93,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -109,7 +109,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &2599737948533353654
+--- !u!114 &1611931037944238447
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,19 +118,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 3385811753923063023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
+  m_Script: {fileID: 11500000, guid: 3851d815f6d7a114aae3200d3cff5106, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  rigidbody: {fileID: 0}
-  startingImage: {fileID: 0}
-  altImage: {fileID: 0}
-  secBeforeSpriteChange: 0.5
-  alinebullet: {fileID: 3385811753923063023}
-  minFireRate: 1
-  maxFireRate: 3
-  baseFireWaitTime: 3
-  explodeShipImage: {fileID: 0}
+  speed: 30
+  explodedShipImage: {fileID: 21300014, guid: 93263ea7558452342aaefd042d58b985, type: 3}
 --- !u!50 &6427602244582678065
 Rigidbody2D:
   serializedVersion: 4

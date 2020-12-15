@@ -124,6 +124,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shield (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -453,6 +458,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  rigidbody: {fileID: 0}
+  startingImage: {fileID: 0}
+  altImage: {fileID: 0}
+  secBeforeSpriteChange: 0.5
+  alienbullet: {fileID: 3385811753923063023, guid: 9cc97619d4b27684a8c09e6b41eae547,
+    type: 3}
+  minFireRate: 1
+  maxFireRate: 3
+  baseFireWaitTime: 3
+  explodeShipImage: {fileID: 0}
 --- !u!1001 &285677896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -464,6 +480,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -543,6 +564,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -628,6 +654,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -846,6 +877,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  rigidbody: {fileID: 0}
+  startingImage: {fileID: 0}
+  altImage: {fileID: 0}
+  secBeforeSpriteChange: 0.5
+  alienbullet: {fileID: 3385811753923063023, guid: 9cc97619d4b27684a8c09e6b41eae547,
+    type: 3}
+  minFireRate: 1
+  maxFireRate: 3
+  baseFireWaitTime: 3
+  explodeShipImage: {fileID: 0}
 --- !u!4 &362842468 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
@@ -1108,6 +1150,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  rigidbody: {fileID: 0}
+  startingImage: {fileID: 0}
+  altImage: {fileID: 0}
+  secBeforeSpriteChange: 0.5
+  alienbullet: {fileID: 3385811753923063023, guid: 9cc97619d4b27684a8c09e6b41eae547,
+    type: 3}
+  minFireRate: 1
+  maxFireRate: 3
+  baseFireWaitTime: 3
+  explodeShipImage: {fileID: 0}
 --- !u!1 &420607872
 GameObject:
   m_ObjectHideFlags: 0
@@ -1225,6 +1278,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -1443,6 +1501,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  rigidbody: {fileID: 0}
+  startingImage: {fileID: 0}
+  altImage: {fileID: 0}
+  secBeforeSpriteChange: 0.5
+  alienbullet: {fileID: 3385811753923063023, guid: 9cc97619d4b27684a8c09e6b41eae547,
+    type: 3}
+  minFireRate: 1
+  maxFireRate: 3
+  baseFireWaitTime: 3
+  explodeShipImage: {fileID: 0}
 --- !u!4 &438125150 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
@@ -1460,6 +1529,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -1835,6 +1909,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  rigidbody: {fileID: 0}
+  startingImage: {fileID: 0}
+  altImage: {fileID: 0}
+  secBeforeSpriteChange: 0.5
+  alienbullet: {fileID: 3385811753923063023, guid: 9cc97619d4b27684a8c09e6b41eae547,
+    type: 3}
+  minFireRate: 1
+  maxFireRate: 3
+  baseFireWaitTime: 3
+  explodeShipImage: {fileID: 0}
 --- !u!4 &498128319 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
@@ -2073,6 +2158,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  rigidbody: {fileID: 0}
+  startingImage: {fileID: 0}
+  altImage: {fileID: 0}
+  secBeforeSpriteChange: 0.5
+  alienbullet: {fileID: 3385811753923063023, guid: 9cc97619d4b27684a8c09e6b41eae547,
+    type: 3}
+  minFireRate: 1
+  maxFireRate: 3
+  baseFireWaitTime: 3
+  explodeShipImage: {fileID: 0}
 --- !u!4 &619688131 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
@@ -2090,6 +2186,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -2308,6 +2409,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  rigidbody: {fileID: 0}
+  startingImage: {fileID: 0}
+  altImage: {fileID: 0}
+  secBeforeSpriteChange: 0.5
+  alienbullet: {fileID: 3385811753923063023, guid: 9cc97619d4b27684a8c09e6b41eae547,
+    type: 3}
+  minFireRate: 1
+  maxFireRate: 3
+  baseFireWaitTime: 3
+  explodeShipImage: {fileID: 0}
 --- !u!1001 &704252929
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2458,6 +2570,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  rigidbody: {fileID: 0}
+  startingImage: {fileID: 0}
+  altImage: {fileID: 0}
+  secBeforeSpriteChange: 0.5
+  alienbullet: {fileID: 3385811753923063023, guid: 9cc97619d4b27684a8c09e6b41eae547,
+    type: 3}
+  minFireRate: 1
+  maxFireRate: 3
+  baseFireWaitTime: 3
+  explodeShipImage: {fileID: 0}
 --- !u!1001 &710181140
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2469,6 +2592,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -2687,6 +2815,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  rigidbody: {fileID: 0}
+  startingImage: {fileID: 0}
+  altImage: {fileID: 0}
+  secBeforeSpriteChange: 0.5
+  alienbullet: {fileID: 3385811753923063023, guid: 9cc97619d4b27684a8c09e6b41eae547,
+    type: 3}
+  minFireRate: 1
+  maxFireRate: 3
+  baseFireWaitTime: 3
+  explodeShipImage: {fileID: 0}
 --- !u!4 &807878210 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
@@ -2704,6 +2843,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -2922,6 +3066,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  rigidbody: {fileID: 0}
+  startingImage: {fileID: 0}
+  altImage: {fileID: 0}
+  secBeforeSpriteChange: 0.5
+  alienbullet: {fileID: 3385811753923063023, guid: 9cc97619d4b27684a8c09e6b41eae547,
+    type: 3}
+  minFireRate: 1
+  maxFireRate: 3
+  baseFireWaitTime: 3
+  explodeShipImage: {fileID: 0}
 --- !u!1 &917758720
 GameObject:
   m_ObjectHideFlags: 0
@@ -2999,6 +3154,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -3079,6 +3239,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shield (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3157,6 +3322,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -3525,6 +3695,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  rigidbody: {fileID: 0}
+  startingImage: {fileID: 0}
+  altImage: {fileID: 0}
+  secBeforeSpriteChange: 0.5
+  alienbullet: {fileID: 3385811753923063023, guid: 9cc97619d4b27684a8c09e6b41eae547,
+    type: 3}
+  minFireRate: 1
+  maxFireRate: 3
+  baseFireWaitTime: 3
+  explodeShipImage: {fileID: 0}
 --- !u!1001 &1147271842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3536,6 +3717,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -3754,6 +3940,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  rigidbody: {fileID: 0}
+  startingImage: {fileID: 0}
+  altImage: {fileID: 0}
+  secBeforeSpriteChange: 0.5
+  alienbullet: {fileID: 3385811753923063023, guid: 9cc97619d4b27684a8c09e6b41eae547,
+    type: 3}
+  minFireRate: 1
+  maxFireRate: 3
+  baseFireWaitTime: 3
+  explodeShipImage: {fileID: 0}
 --- !u!4 &1202752252 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
@@ -3783,6 +3980,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -3862,6 +4064,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -4086,6 +4293,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  rigidbody: {fileID: 0}
+  startingImage: {fileID: 0}
+  altImage: {fileID: 0}
+  secBeforeSpriteChange: 0.5
+  alienbullet: {fileID: 3385811753923063023, guid: 9cc97619d4b27684a8c09e6b41eae547,
+    type: 3}
+  minFireRate: 1
+  maxFireRate: 3
+  baseFireWaitTime: 3
+  explodeShipImage: {fileID: 0}
 --- !u!1001 &1335673158
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4097,6 +4315,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -4176,6 +4399,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -4312,6 +4540,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shield (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4396,6 +4629,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -4614,6 +4852,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  rigidbody: {fileID: 0}
+  startingImage: {fileID: 0}
+  altImage: {fileID: 0}
+  secBeforeSpriteChange: 0.5
+  alienbullet: {fileID: 3385811753923063023, guid: 9cc97619d4b27684a8c09e6b41eae547,
+    type: 3}
+  minFireRate: 1
+  maxFireRate: 3
+  baseFireWaitTime: 3
+  explodeShipImage: {fileID: 0}
 --- !u!4 &1512222386 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
@@ -4631,6 +4880,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -4849,6 +5103,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  rigidbody: {fileID: 0}
+  startingImage: {fileID: 0}
+  altImage: {fileID: 0}
+  secBeforeSpriteChange: 0.5
+  alienbullet: {fileID: 3385811753923063023, guid: 9cc97619d4b27684a8c09e6b41eae547,
+    type: 3}
+  minFireRate: 1
+  maxFireRate: 3
+  baseFireWaitTime: 3
+  explodeShipImage: {fileID: 0}
 --- !u!1001 &1542858747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4860,6 +5125,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -5078,6 +5348,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  rigidbody: {fileID: 0}
+  startingImage: {fileID: 0}
+  altImage: {fileID: 0}
+  secBeforeSpriteChange: 0.5
+  alienbullet: {fileID: 3385811753923063023, guid: 9cc97619d4b27684a8c09e6b41eae547,
+    type: 3}
+  minFireRate: 1
+  maxFireRate: 3
+  baseFireWaitTime: 3
+  explodeShipImage: {fileID: 0}
 --- !u!1001 &1605790578
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5228,6 +5509,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  rigidbody: {fileID: 0}
+  startingImage: {fileID: 0}
+  altImage: {fileID: 0}
+  secBeforeSpriteChange: 0.5
+  alienbullet: {fileID: 3385811753923063023, guid: 9cc97619d4b27684a8c09e6b41eae547,
+    type: 3}
+  minFireRate: 1
+  maxFireRate: 3
+  baseFireWaitTime: 3
+  explodeShipImage: {fileID: 0}
 --- !u!4 &1708507934 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
@@ -5245,6 +5537,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -5463,6 +5760,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  rigidbody: {fileID: 0}
+  startingImage: {fileID: 0}
+  altImage: {fileID: 0}
+  secBeforeSpriteChange: 0.5
+  alienbullet: {fileID: 3385811753923063023, guid: 9cc97619d4b27684a8c09e6b41eae547,
+    type: 3}
+  minFireRate: 1
+  maxFireRate: 3
+  baseFireWaitTime: 3
+  explodeShipImage: {fileID: 0}
 --- !u!1 &1743424725
 GameObject:
   m_ObjectHideFlags: 0
@@ -5795,6 +6103,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  rigidbody: {fileID: 0}
+  startingImage: {fileID: 0}
+  altImage: {fileID: 0}
+  secBeforeSpriteChange: 0.5
+  alienbullet: {fileID: 3385811753923063023, guid: 9cc97619d4b27684a8c09e6b41eae547,
+    type: 3}
+  minFireRate: 1
+  maxFireRate: 3
+  baseFireWaitTime: 3
+  explodeShipImage: {fileID: 0}
 --- !u!4 &1851706475 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
@@ -5830,6 +6149,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -6011,10 +6335,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2118984129}
     m_Modifications:
+    - target: {fileID: 61228598127123326, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
       propertyPath: m_Name
       value: Shield (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068591134357454251, guid: 9277c395e3032aa458ed30bdce8fd6ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,
         type: 3}
@@ -6233,6 +6567,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e866e1bb428cd024aab1cc6fd15d28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  rigidbody: {fileID: 0}
+  startingImage: {fileID: 0}
+  altImage: {fileID: 0}
+  secBeforeSpriteChange: 0.5
+  alienbullet: {fileID: 3385811753923063023, guid: 9cc97619d4b27684a8c09e6b41eae547,
+    type: 3}
+  minFireRate: 1
+  maxFireRate: 3
+  baseFireWaitTime: 3
+  explodeShipImage: {fileID: 0}
 --- !u!4 &2118931263 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6653320371598890797, guid: 9277c395e3032aa458ed30bdce8fd6ba,

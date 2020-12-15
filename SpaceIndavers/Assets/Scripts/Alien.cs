@@ -16,7 +16,7 @@ public class Alien : MonoBehaviour
 
     public float secBeforeSpriteChange = 0.5f;
 
-    public GameObject alinebullet;
+    public GameObject alienbullet;
 
     public float minFireRate = 1.0f;
     public float maxFireRate = 3.0f;
@@ -33,9 +33,9 @@ public class Alien : MonoBehaviour
 
         spriterenderer = GetComponent<SpriteRenderer>();
 
-        StartCoroutine ((IEnumerator)changeAlienSprite());
+        StartCoroutine((IEnumerator)ChangeAlienSprite());
 
-        baseFireWaitTime += Random.Range
+        baseFireWaitTime = baseFireWaitTime + Random.Range
             (minFireRate, maxFireRate);
 
     }
@@ -50,7 +50,7 @@ public class Alien : MonoBehaviour
     void MoveDown()
     {
         Vector2 position = transform.position;
-        position.y = -1;
+        position.y -= 2;
         transform.position = position;
     }
 
@@ -79,7 +79,7 @@ public class Alien : MonoBehaviour
 
 
 
-    public IEnumerable changeAlienSprite()
+    public IEnumerable ChangeAlienSprite()
     {
         while (true)
         {
@@ -101,19 +101,19 @@ public class Alien : MonoBehaviour
         }
     }
 
-    private void FixedUpdate()
+    void FixedUpdate()
     {
         if(Time.time > baseFireWaitTime)
         {
-            baseFireWaitTime += Random.Range
+            baseFireWaitTime = baseFireWaitTime + Random.Range
             (minFireRate, maxFireRate);
 
-            Instantiate(alinebullet, transform.position, 
+            Instantiate(alienbullet, transform.position, 
                 Quaternion.identity);
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.tag == "Player")
         {
